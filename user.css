@@ -3,7 +3,28 @@
 Auteur : MAINCENT Thomas
 Date de création : 15 Mai 2023 */
 
-/* Changement de la couleur des sous-titres en vert */
-h2, h3{
-  color: green;
+/* Changement de la couleur des titres d'articles et du titre du module */
+h1, .card-header{
+  color: #444444;
+}
+
+/* Changement de la couleur des sous-titres et des liens en vert */
+h2, a{
+  color: #7ba428;
+}
+
+/* Changement de couleur du "titre 3" */
+h3{
+  color: #E9C589; /* Proposition de couleur */
+}
+
+/* Redimensionnement du logo */
+img{
+  width: 1485px;
+}
+
+/* Changement de couleur de fond du footer*/ 
+.footer{
+  background-color: #5b5b5c;
+  --cassiopeia-color-hover: none;
 }
