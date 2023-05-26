@@ -1,4 +1,9 @@
 /* Fichier user.css
 
 Auteur : MAINCENT Thomas
-Date de création : 15 Mai 2023 */ 
+Date de création : 15 Mai 2023 */
+
+/* Changement de la couleur des sous-titres en vert */
+h2, h3{
+  color: green;
+}
