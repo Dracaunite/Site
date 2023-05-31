@@ -3,6 +3,11 @@
 Auteur : MAINCENT Thomas
 Date de création : 15 Mai 2023 */
 
+/* Ajout d'un dégradé gris sombre et gris clair */
+.header{
+  background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(154,154,154,1) 100%);
+}
+
 /* Changement de la couleur des titres d'articles et du titre du module */
 h1, .card-header{
   color: #444444;
@@ -23,9 +28,25 @@ a{
   color: #a8e074; /* Proposition de couleur */
 }
 
+/* Changement de couleur des liens du formulaire de connexion */
+.list-group-item{
+  color: #a8e074;
+}
+
+/* Changement de la couleur des liens de menu */
+.container-header .mod-menu>li>a{
+  color: black;
+}
+
+/* Changement de couleur des flèches à côté des liens de menu (Activités, Programme 2022 - 2023)*/
+.container-header .mod-menu{
+  color: black;
+}
+
 /* Redimensionnement du logo */
 img{
   width: 1485px;
+  border: 2px solid black;
 }
 
 /* Changement de couleur de fond du footer */ 
