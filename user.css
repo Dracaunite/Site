@@ -50,6 +50,12 @@ a{
   color: black;
 }
 
+/* Modification de la couleur du bouton du menu rétractable (téléphone) */
+.container-header .navbar-toggler{
+  border: 1px solid black;
+  color: black;
+}
+
 /* Redimensionnement du logo */
 .header img{
   width: 1485px;
