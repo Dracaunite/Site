@@ -8,24 +8,31 @@ Date de création : 15 Mai 2023 */
   background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(154,154,154,1) 100%);
 }
 
-/* Changement de la couleur des titres d'articles et du titre du module */
+/* Changement de la couleur du titre 1 et du titre du module */
 h1, .card-header{
   color: #444444;
 }
 
-/* Changement de la couleur des sous-titres en vert */
+/* Changement de taille du titre 1 (titre article) */
+h1{
+  font-size : 24px;
+}
+
+/* Changement de la couleur du "titre 2" en vert + taille*/
 h2{
   color: #7ba428;
+  font-size: 22px;
 }
 
 /* Changement de couleur du "titre 3" */
 h3{
-  color: #e9c589; /* Proposition de couleur */
+  color: #abb664; /* Proposition de couleur */
+  font-size : 18px;
 }
 
 /* Changement de couleur des liens */
 a{
-  color: #a8e074; /* Proposition de couleur */
+  color: #87c864; /* Proposition de couleur */
 }
 
 /* Changement de couleur des liens du formulaire de connexion */
