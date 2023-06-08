@@ -1,2 +1,2 @@
 # Site
-Site de l'association Sensibilités Photos
+Site de l'association Sensibilité Photo
