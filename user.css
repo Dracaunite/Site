@@ -56,8 +56,14 @@ a{
   color: black;
 }
 
+/* Redimensionnement + placement du logo de connexion */
+.connexion {
+  width: 60px;
+  margin-left: 370px; /* L'image est tout à droite /*
+}
+
 /* Redimensionnement du logo */
-.header img{
+.brand-logo img {
   width: 1485px;
   border: 2px solid black; /* Proposition de "style" */ 
 }
