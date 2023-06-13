@@ -3,29 +3,69 @@
 Auteur : MAINCENT Thomas
 Date de création : 15 Mai 2023 */
 
-/* Changement de la couleur des titres d'articles et du titre du module */
+/* Ajout d'un dégradé gris sombre et gris clair */
+.header{
+  background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(154,154,154,1) 100%);
+}
+
+/* Changement de la couleur du titre 1 et du titre du module */
 h1, .card-header{
   color: #444444;
 }
 
-/* Changement de la couleur des sous-titres en vert */
+/* Changement de taille du titre 1 (titre article) */
+h1{
+  font-size: 1.5rem;
+}
+
+/* Changement de la couleur du "titre 2" en vert + taille*/
 h2{
   color: #7ba428;
+  font-size: 1.375rem;
 }
 
 /* Changement de couleur du "titre 3" */
 h3{
-  color: #e9c589; /* Proposition de couleur */
+  color: #abb664; /* Proposition de couleur */
+  font-size: 1.125rem;
+}
+
+/* Taille du texte */
+p, li{
+  font-size: 0.813rem;
 }
 
 /* Changement de couleur des liens */
 a{
-  color: #a8e074; /* Proposition de couleur */
+  color: #87c864; /* Proposition de couleur */
+}
+
+/* Changement de couleur des liens du formulaire de connexion */
+.list-group-item{
+  color: #a8e074;
+}
+
+/* Changement de la couleur des liens de menu */
+.container-header .mod-menu>li>a{
+  color: black;
+}
+
+/* Modification de la couleur du bouton du menu rétractable (téléphone) */
+.container-header .navbar-toggler{
+  border: 1px solid black;
+  color: black;
+}
+
+/* Redimensionnement + placement du logo de connexion (extension Maximenu) */
+div#maximenuck113 li.maximenuck img{
+  width: 55px;
 }
 
 /* Redimensionnement du logo */
-img{
-  width: 1485px;
+.brand-logo img {
+  width: 1920px; /* Résolution 1080p par défaut */
+  height: auto;
+  border: 2px solid black; /* Proposition de "style" */ 
 }
 
 /* Changement de couleur de fond du footer */ 
@@ -33,3 +73,6 @@ img{
   background-color: #5b5b5c;
   --cassiopeia-color-hover: none;
 }
+
+/* Gestion des résolutions supérieurs à la 1080p (2K, 4K, etc.) */
+/* Code en cours d'écriture */
