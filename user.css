@@ -83,12 +83,14 @@ label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact
 input#jform_contact_name, input#jform_contact_email, input#jform_contact_emailmsg, textarea#jform_contact_message{
   margin-bottom: 2%;
   border: 1px solid #808c6a;
-  width: 584px;
+  width: 584px; /* Longueur */
 }
 
-/* Modification de couleur du texte : 'Champs requis *' + '*' */
-label#jform_spacer-lbl, span.star{
+/* Modification de couleur du texte : 'Champs requis', '*' et le message d'erreur */
+label#jform_spacer-lbl, span.star, .form-control-feedback{
   color: rgb(242, 58, 60);
+  font-family: var(--font-sans-serif); /* Police par défaut de Joomla */
+  font-weight: bold; /* Texte en gras */
 }
 
 /* Couleur de fond du formulaire */
