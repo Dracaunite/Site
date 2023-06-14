@@ -75,18 +75,19 @@ div#maximenuck113 li.maximenuck img{
 }
 
 /* Couleur des intitulés au dessus des champs (nom, prénom, etc.) */
-div.control-label{
+label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl{
   color: #455429;
   font-family: Inter;
 }
 
 /* Centre les intitulés + champs + légende et le bouton */
-.form-control, div.control-label, legend, button.btn.btn-primary.validate{
+label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl, label#jform_spacer-lbl, legend, button.btn.btn-primary.validate, input#jform_contact_name, input#jform_contact_email, input#jform_contact_emailmsg, textarea#jform_contact_message{
   margin-left: 2%;
 }
 
-input{
-  margin-bottom: 2%; 
+/* Modifie l'espacement entre chaque champ (bas) */
+input#jform_contact_name, input#jform_contact_email, input#jform_contact_emailmsg, textarea#jform_contact_message{
+  margin-bottom: 2%;
 }
 
 /* Modification de couleur du texte : 'Champs requis *' + '*' */
@@ -112,7 +113,3 @@ button.btn.btn-primary.validate{
   background-color: #5b5b5c;
   --cassiopeia-color-hover: none;
 }
-
-
-/* Gestion des résolutions supérieurs à la 1080p (2K, 4K, etc.) */
-/* Code en cours d'écriture */
