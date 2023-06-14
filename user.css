@@ -68,12 +68,6 @@ div#maximenuck113 li.maximenuck img{
   border: 2px solid black; /* Proposition de "style" */ 
 }
 
-/* Couleur des bordures des champs en dessous des intitulés (nom, sujet, etc.) */
-.form-control{
-  border: 1px solid #808c6a;
-  width: 584px;
-}
-
 /* Couleur des intitulés au dessus des champs (nom, prénom, etc.) */
 label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl{
   color: #455429;
@@ -85,9 +79,11 @@ label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact
   margin-left: 2%;
 }
 
-/* Modifie l'espacement entre chaque champ (bas) */
+/* Modifie l'espacement entre chaque champ (bas) + couleur de la bordure */
 input#jform_contact_name, input#jform_contact_email, input#jform_contact_emailmsg, textarea#jform_contact_message{
   margin-bottom: 2%;
+  border: 1px solid #808c6a;
+  width: 584px;
 }
 
 /* Modification de couleur du texte : 'Champs requis *' + '*' */
