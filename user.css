@@ -68,11 +68,51 @@ div#maximenuck113 li.maximenuck img{
   border: 2px solid black; /* Proposition de "style" */ 
 }
 
+/* Couleur des bordures des champs en dessous des intitulés (nom, sujet, etc.) */
+.form-control{
+  border: 1px solid #808c6a;
+  width: 584px;
+}
+
+/* Couleur des intitulés au dessus des champs (nom, prénom, etc.) */
+div.control-label{
+  color: #455429;
+  font-family: Inter;
+}
+
+/* Centre les intitulés + champs + légende et le bouton */
+.form-control, div.control-label, legend, button.btn.btn-primary.validate{
+  margin-left: 2%;
+}
+
+input{
+  margin-bottom: 2%; 
+}
+
+/* Modification de couleur du texte : 'Champs requis *' + '*' */
+label#jform_spacer-lbl, span.star{
+  color: rgb(242, 58, 60);
+}
+
+/* Couleur de fond du formulaire */
+form#contact-form{
+  background-color: #f4ffdf;
+  padding-right: 4%;
+}
+
+/* Couleur de fond du bouton */
+button.btn.btn-primary.validate{
+  background-color: #566638;
+  border-color: #566638;
+  margin-bottom: 2%;
+}
+
 /* Changement de couleur de fond du footer */ 
 .footer{
   background-color: #5b5b5c;
   --cassiopeia-color-hover: none;
 }
+
 
 /* Gestion des résolutions supérieurs à la 1080p (2K, 4K, etc.) */
 /* Code en cours d'écriture */
