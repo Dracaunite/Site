@@ -38,7 +38,7 @@ a{
 
 /* Redimensionnement + placement du logo de connexion (extension Maximenu) */
 div#maximenuck113 li.maximenuck img{
-  width: 55px;
+  width: 35px;
 }
 
 /* Redimensionnement du logo */
@@ -48,8 +48,9 @@ div#maximenuck113 li.maximenuck img{
   border: 2px solid black; /* Proposition de "style" */ 
 }
 
+/* Modification de la couleur de l'en-tête du formulaire -> h5#loginModalLabel */
 /* Couleur des intitulés au dessus des champs (nom, prénom, etc.) */
-label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl{
+label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl, h5#loginModalLabel{
   color: #455429;
   font-family: Inter;
 }
@@ -84,6 +85,23 @@ button.btn.btn-primary.validate{
   background-color: #566638;
   border-color: #566638;
   margin-bottom: 2%;
+}
+
+/* Couleur de fond du formulaire */
+.modal-content{
+  --modal-bg : #f4ffdf;
+}
+
+/* Enlève l'espacement entre le bouton pour voir le mot de passe et le formulaire + couleur de fond */
+button.btn.btn-secondary.input-password-toggle{
+  margin-right: 0px;
+  background-color: #eaedf0;
+}
+
+/* Changement de la couleur de fond du bouton "Connexion" */
+button.btn.btn-primary.w-100{
+  background-color: #566638;
+  border-color: #566638;
 }
 
 /* Changement de couleur de fond du footer */ 
