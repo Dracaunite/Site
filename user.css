@@ -3,6 +3,10 @@
 Auteur : MAINCENT Thomas
 Date de création : 15 Mai 2023 */
 
+/* Variables : coleur pour le titre, et le menu*/
+html { --vert_titre: hsl(90deg,100%,35%) }
+html { --bleu_menu: hsl(240deg,100%,10%) }
+
 /* Ajout d'un dégradé gris sombre et gris clair */
 .header{
   background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(154,154,154,1) 100%);
@@ -10,20 +14,37 @@ Date de création : 15 Mai 2023 */
 
 /* Changement de taille du titre 1 (titre article) */
 h1{
-  font-size: 1.5rem;
-  color: #444444;
+  font-size: 1.8rem;
+  color: var(--bleu_menu);
 }
 
-/* Changement de la couleur du "titre 2" en vert + taille*/
+/* Changement de la taille du "titre 2" */
 h2{
-  color: #7ba428;
-  font-size: 1.375rem;
+  font-size: 1.6rem;
 }
 
-/* Changement de couleur du "titre 3" */
+/* Changement de la taille du "titre 3" */
 h3{
-  color: #abb664; /* Proposition de couleur */
-  font-size: 1.125rem;
+  font-size: 1.3rem;
+}
+
+/* Changement de la taille du "titre 4" */
+h4{
+  font-size: 1rem;
+}
+
+h2, h3, h4 {
+  color: var(--vert_titre);
+}
+
+/* Couleur de la barre sous le titre de l'article */
+hr{
+  color: hsl(0deg, 0%, 27%);
+}
+
+/* Espacement (largeur) entre les textes */
+p{
+  line-height: 1.8;
 }
 
 /* Taille du texte */
@@ -32,8 +53,14 @@ p, li{
 }
 
 /* Changement de couleur des liens */
-a{
-  color: #87c864; /* Proposition de couleur */
+a {
+  color: var(--vert_titre);
+}
+
+/* Modification du fond de couleur du liens lors du passage du curseur sur les liens */
+a:hover {
+  border-bottom: 1px solid;
+  background: hsl(240deg,50%,80%,30%);
 }
 
 /* Redimensionnement + placement du logo de connexion (extension Maximenu) */
@@ -41,17 +68,21 @@ div#maximenuck114 li.maximenuck img{
   width: 35px;
 }
 
-/* Redimensionnement du logo */
-.brand-logo img {
-  width: 1920px; /* Résolution 1080p par défaut */
-  height: auto;
-  border: 2px solid black; /* Proposition de "style" */ 
+/* Placement du menu "Membres" */
+.menu_membres{
+  position: absolute;
+  left: 14%; 
+}
+
+/* Placement de la barre de sous-menu du menu "Membres" */
+div#maximenuck115.maximenuckv div.floatck{
+  margin: 0 0 0 0;
 }
 
 /* Modification de la couleur de l'en-tête du formulaire -> h5#loginModalLabel */
 /* Couleur des intitulés au dessus des champs (nom, prénom, etc.) */
 label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact_emailmsg-lbl, label#jform_contact_message-lbl, h5#loginModalLabel{
-  color: #455429;
+  color: hsl(80.93deg, 34%, 25%);
   font-family: Inter;
 }
 
@@ -63,49 +94,49 @@ label#jform_contact_name-lbl, label#jform_contact_email-lbl, label#jform_contact
 /* Modifie l'espacement entre chaque champ (bas) + couleur de la bordure */
 input#jform_contact_name, input#jform_contact_email, input#jform_contact_emailmsg, textarea#jform_contact_message{
   margin-bottom: 2%;
-  border: 1px solid #808c6a;
+  border: 1px solid hsl(81.176deg, 14%, 48%);
   width: 584px; /* Longueur */
 }
 
 /* Modification de couleur du texte : 'Champs requis', '*' et le message d'erreur */
 label#jform_spacer-lbl, span.star, .form-control-feedback{
-  color: rgb(242, 58, 60);
+  color: hsl(359.348deg, 88%, 59%);
   font-family: var(--font-sans-serif); /* Police par défaut de Joomla */
   font-weight: bold; /* Texte en gras */
 }
 
 /* Couleur de fond du formulaire */
 form#contact-form{
-  background-color: #f4ffdf;
+  background-color: hsl(80.625deg, 100%, 94%);
   padding-right: 4%;
 }
 
 /* Couleur de fond du bouton */
 button.btn.btn-primary.validate{
-  background-color: #566638;
-  border-color: #566638;
+  background-color: hsl(80.87deg, 29%, 31%);
+  border-color: hsl(80.87deg, 29%, 31%);
   margin-bottom: 2%;
 }
 
 /* Couleur de fond du formulaire */
 .modal-content{
-  --modal-bg : #f4ffdf;
+  --modal-bg : hsl(80.625deg, 100%, 94%);
 }
 
 /* Enlève l'espacement entre le bouton pour voir le mot de passe et le formulaire + couleur de fond */
 button.btn.btn-secondary.input-password-toggle{
   margin-right: 0px;
-  background-color: #eaedf0;
+  background-color: hsl(210deg, 17%, 93%);
 }
 
 /* Changement de la couleur de fond du bouton "Connexion" */
 button.btn.btn-primary.w-100{
-  background-color: #566638;
-  border-color: #566638;
+  background-color: hsl(80.87deg, 29%, 31%);
+  border-color: hsl(80.87deg, 29%, 31%);
 }
 
 /* Changement de couleur de fond du footer */ 
 .footer{
-  background-color: #5b5b5c;
+  background-color: hsl(240deg, 1%, 36%);
   --cassiopeia-color-hover: none;
 }
