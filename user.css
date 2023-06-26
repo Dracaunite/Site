@@ -140,3 +140,9 @@ button.btn.btn-primary.w-100{
   background-color: hsl(240deg, 1%, 36%);
   --cassiopeia-color-hover: none;
 }
+
+/* "Centrage" de la bannière (en-tête de page) */
+.mod-randomimage.random-image{
+  border: 2px solid black; /* Bordure autour de l'imahe */
+  margin: 0 auto;
+}
