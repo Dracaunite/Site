@@ -143,6 +143,6 @@ button.btn.btn-primary.w-100{
 
 /* "Centrage" de la bannière (en-tête de page) */
 .mod-randomimage.random-image{
-  border: 2px solid black; /* Bordure autour de l'imahe */
+  border: 2px solid black; /* Bordure autour de l'image */
   margin: 0 auto;
 }
